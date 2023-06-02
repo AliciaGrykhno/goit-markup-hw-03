@@ -16,6 +16,8 @@
 }
 .link {
   text-decoration: none;
+  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 h1,
@@ -67,7 +69,6 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
   letter-spacing: 0.02em;
 
   color: #2e2f42;
@@ -114,7 +115,7 @@ img {
 .description {
   font-size: 16px;
   line-height: 1.5;
-
+  text-align: center;
   letter-spacing: 0.02em;
 
   color: #434455;
@@ -122,6 +123,9 @@ img {
 /*====== /COMPONENTS/ ======*/
 
 /*======HEADER======*/
+.menu {
+  padding: 24px, 0;
+}
 .page-header {
   padding-top: 25px;
   padding-bottom: 25px;
@@ -129,6 +133,7 @@ img {
 .header-container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc;
 }
 .navigation-container {
   display: flex;
@@ -136,6 +141,8 @@ img {
 }
 .menu-container {
   display: flex;
+  margin-bottom: 24px;
+  gap: 40px;
 }
 .logo {
   text-decoration: none;
@@ -153,6 +160,7 @@ img {
 }
 .logo-footer {
   color: #f4f4fd;
+  display: inline-block;
 }
 .header-adress {
   font-style: normal;
@@ -197,11 +205,12 @@ img {
 .hero {
   background-color: #2e2f42;
   width: 1188px;
+  padding: 180px, 0px;
 }
 .main-title {
   font-size: 56px;
   line-height: 1.07;
-  width: 496px;
+  max-width: 496px;
   height: 120px;
   left: 472px;
   letter-spacing: 0.02em;
@@ -218,6 +227,10 @@ img {
   border-radius: 4px;
   padding: 16px 32px;
   margin-bottom: 188px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 
   color: #ffffff;
   background: #4d5ae5;
@@ -256,6 +269,9 @@ img {
   letter-spacing: 0.02em;
 
   color: #434455;
+}
+.second-section {
+  padding: 120px, 0px;
 }
 .title-title {
   font-size: 36px;
@@ -324,7 +340,7 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 .team {
-  padding-bottom: 120px;
+  padding-bottom: 120px, 0px;
 }
 .we-doing {
   background-color: #ffffff;
@@ -334,23 +350,28 @@ img {
   background-color: var(--background-footer);
   width: 1440px;
   height: 312px;
+  padding: 100px, 0px;
 }
 .description-footer {
   color: var(--description-color);
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 .title-employe {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
 
   color: #2e2f42;
 }
 .infromation {
   margin-top: 96px;
   margin-bottom: 72px;
+  width: calc((100% - 72px) / 4);
 }
 .projects {
   flex-basis: calc((100%-48) / 3);
