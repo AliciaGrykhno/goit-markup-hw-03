@@ -171,7 +171,6 @@ img {
 .menu-container {
   display: flex;
   /* margin-bottom: 24px; */
-  gap: 40px;
 }
 
 .logo {
@@ -258,7 +257,6 @@ img {
   cursor: pointer;
   border-radius: 4px;
   padding: 16px 32px;
-  margin-bottom: 188px;
   display: block;
   min-width: 169px;
   height: 56px;
@@ -291,6 +289,10 @@ img {
 .features {
   display: flex;
   gap: 24px;
+}
+.features-link {
+  text-decoration: none;
+  display: inline-block;
 }
 
 .title {
@@ -439,6 +441,7 @@ img {
 
 .footer-link {
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .items {
@@ -454,6 +457,8 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   margin-bottom: 8px;
+
+  color: #2e2f42;
 }
 .all {
   margin-bottom: 72px;
