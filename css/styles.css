@@ -354,8 +354,8 @@ img {
   color: #2e2f42;
 }
 .filtr-button {
-  width: 101px;
-  height: 48px;
+  min-width: 101px;
+  min-height: 48px;
   font-weight: 500;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -364,7 +364,7 @@ img {
   border-radius: 4px;
   text-align: center;
   letter-spacing: 0.04em;
-  padding: 12px, 24px;
+  padding: 12px 24px;
 
   color: #4d5ae5;
   background-color: var(--description-color);
@@ -427,7 +427,7 @@ img {
 }
 .projects-border {
   border: 1px solid #e7e9fc;
-  padding: 32px, 16px;
+  padding: 32px 16px;
   background: #ffffff;
   border-top: none;
 }
