@@ -165,7 +165,7 @@ img {
 
 .navigation-container {
   display: flex;
-  /* align-items: center; */
+  align-items: center;
 }
 
 .menu-container {
@@ -385,7 +385,7 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .employes-border {
-  padding: 32px 0;
+  padding: 32px 16px;
 }
 
 .team {
@@ -429,14 +429,29 @@ img {
   border: 1px solid #e7e9fc;
   padding: 32px, 16px;
   background: #ffffff;
+  border-top: none;
 }
 .section {
   padding-top: 96px;
   padding-bottom: 120px;
+  background: var(--background-colour);
 }
-.development-area {
-  display: flex;
+
+.footer-link {
+  margin-bottom: 16px;
+}
+
+.items {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+}
+.title-projects {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
 }
