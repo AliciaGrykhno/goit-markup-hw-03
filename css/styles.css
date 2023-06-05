@@ -17,7 +17,6 @@
 .link {
   text-decoration: none;
   display: inline-block;
-  padding: 24px 0;
 }
 
 .visually-hidden {
@@ -79,6 +78,9 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+.logo-header {
+  margin-right: 76px;
+}
 
 .logo-color {
   color: #2e2f42;
@@ -89,6 +91,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px;
 
   color: #2e2f42;
 }
@@ -99,32 +102,19 @@ img {
   text-decoration-line: none;
 }
 
-.contact-mail:hover,
-.contact-mail:focus {
-  color: #404bbf;
-}
-
-.contact-mail {
+.contact-link {
   font-family: var(--primary-font);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 
   color: #434455;
 }
 
-.phone:hover,
-.phone:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
-}
-
-.phone {
-  font-family: var(--primary-font);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-
-  color: #434455;
 }
 
 .title {
@@ -180,7 +170,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 76px;
 }
 
 .logo-color {
@@ -209,25 +198,6 @@ img {
 .menu-link:hover,
 .menu-link:focus {
   color: var(--accent-color-link);
-}
-
-.menu-item:not(:last-child) {
-  margin-right: 40px;
-  padding: 24px, 0px;
-}
-
-.contact-mail {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  margin-right: 40px;
-  color: #434455;
-}
-
-.contact-mail:hover,
-.contact-mail:focus {
-  color: #404bbf;
-  text-decoration-line: none;
 }
 
 /*====== /HEADER/ ======*/
